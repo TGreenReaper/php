@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <meta charset="UTF-8">
+        <script src="script.js"></script>
+    </head>
+    <body>
+      <div class="nav">
+        <ul>
+
+        </ul>
+      </div>
+      <div class="main">
+        <div class="html">
+            <h2>HTML: </h2>
+            <textarea autocapitalize="false" spellcheck="false" id="html"></textarea>
+        </div>
+        <div class="css">
+            <h2>CSS: </h2>
+            <textarea  autocapitalize="false" spellcheck="false" id="csss"></textarea>
+        </div>
+   
+      </div>
+      <div class="output" id="output">
+        <iframe src="" id="opt"></iframe>
+      </div>
+
+      <form action="index.php" method="POST">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+      
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      
+        <input type="submit" value="Login">
+      </form>      
+
+
+    </body>
+</html>
+
+
+
